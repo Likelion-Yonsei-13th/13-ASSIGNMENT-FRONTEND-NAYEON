@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>연세대 멋쟁이사자처럼 13기 지원서</title>
+</head>
+<body>
+  <h1>연세대학교 멋쟁이사자처럼 13기 지원서</h1>
+
+  <form>
+    <fieldset>
+      <legend>지원자 정보</legend>
+      이름: <input type="text" name="name" required><br>
+      학번: <input type="text" name="student_id"><br>
+      학과: <input type="text" name="major"><br>
+      이메일: <input type="email" name="email" required><br>
+      연락처: <input type="text" name="phone"><br>
+    </fieldset>
+
+    <fieldset>
+      <legend>지원 분야</legend>
+      <input type="radio" name="field" value="기획"> 기획<br>
+      <input type="radio" name="field" value="디자인"> 디자인<br>
+      <input type="radio" name="field" value="프론트엔드"> 프론트엔드<br>
+      <input type="radio" name="field" value="백엔드"> 백엔드<br>
+    </fieldset>
+
+    <fieldset>
+      <legend>문항</legend>
+      1. 지원동기<br>
+      <textarea name="q1" rows="4" cols="50"></textarea><br><br>
+
+      2. 강점<br>
+      <textarea name="q2" rows="4" cols="50"></textarea><br><br>
+
+      3. 기억에 남는 서비스<br>
+      <textarea name="q3" rows="4" cols="50"></textarea><br><br>
+
+      4. 협업 경험<br>
+      <textarea name="q4" rows="2" cols="50"></textarea><br><br>
+
+      5. 시간 가능 여부<br>
+      <textarea name="q5" rows="2" cols="50"></textarea><br><br>
+    </fieldset>
+
+    <fieldset>
+      <legend>비대면 면접 가능 시간</legend>
+      가능한 시간대를 선택해주세요:<br>
+      <input type="checkbox" name="time" value="22일"> 22일<br>
+      <input type="checkbox" name="time" value="27일"> 27일<br>
+      <!-- 필요시 더 추가 -->
+    </fieldset>
+
+    <button type="submit">제출</button>
+  </form>
+</body>
+</html>
