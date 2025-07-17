@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Hi+Melody&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+.portfolio-header {
+  background-color: black;
+  padding: 30px;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Bagel Fat One', cursive;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.header-link {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.portfolio-nav {
+  background-color: whitesmoke;
+  padding: 3px;
+  font-family: 'Hi Melody', sans-serif;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.portfolio-nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.portfolio-nav li {
+  margin-left: 20px;
+}
+
+.portfolio-nav a {
+  color: darkgray;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 8px 12px;
+}
+
+.portfolio-nav a:hover {
+  background-color: black;
+  border-radius: 5px;
+  color: white;
+}
+
+.portfolio-content {
+  text-align: center;
+  font-family: 'Hi Melody', sans-serif;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.portfolio-content button {
+  font-family: 'Hi Melody', sans-serif;
+  font-size: 20px;
+}
+
+.portfolio-footer {
+  font-family: 'Hi Melody', sans-serif;
+  font-size: 20px;
+  background-color: lightgray;
+  text-align: center;
+  width: 80%;
+  margin: 30px auto 0;
+}
+
+.portfolio-footer a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.about-me,
+.history-page,
+.contact,
+.favorites-page {
+  font-family: 'Hi Melody', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+}
+
+.history-table {
+  width: 50%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.history-table th,
+.history-table td {
+  border: 2px solid #555;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Hi Melody', sans-serif;
+  font-size: 20px;
+}
+
+.history-table th {
+  background-color: #555;
+  color: white;
+}
+
+.favorite-item {
+  margin-bottom: 40px;
+}
+
+.portfolio-nav button {
+  background: none;
+  border: none;
+  color: darkgray;
+  font-size: 20px;
+  padding: 8px 12px;
+  font-family: 'Hi Melody', sans-serif;
+  cursor: pointer;
+}
+
+.portfolio-nav button:hover {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
